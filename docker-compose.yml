@@ -1,0 +1,15 @@
+# ! Docker will spawn a db using this
+version: '24.0.2'
+services:
+  development-database:
+    image: postgres:15
+    ports:
+      - 5434:5432
+    environment:
+      POSTGRES_USER: 'daniel_h'
+      POSTGRES_PASSWORD: 'aRealBadIdea4774!'
+      POSTGRES_DB: wiseupv7-db
+    networks:
+      - wiseupv7-network
+networks:
+  wiseupv7-network:

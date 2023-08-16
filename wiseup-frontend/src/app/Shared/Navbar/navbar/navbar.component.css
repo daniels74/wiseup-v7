@@ -1,0 +1,30 @@
+.nav-container {
+    background-color: black;
+    color: white;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    background-color: rgb(19, 36, 90);
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-list {
+    background-color: rgb(156, 179, 228);
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
